@@ -3,7 +3,7 @@ console.log("BOM Lab ")
 // let body=window.alert("Hello there,ARE You REAdy The GAMe is about to begin")
 let area=document.getElementById('app');
 let display=document.getElementById('display')
-area.append('Dear!');
+area.append('You tried! ');
 
 
 function playGame(num1,num2){
@@ -13,7 +13,7 @@ let randomNum1=Math.floor(Math.random()*10)+1
 let randomNum2=Math.floor(Math.random()*10)+1
 let result=playGame(randomNum1,randomNum2);
 
-let answer=window.prompt(`Gues the number ${randomNum1} * ${randomNum2}`)
+let answer=window.prompt(`Guess the number ${randomNum1} * ${randomNum2}`)
 let trial=true;
 let count=0;
 let gameDuration=0;
@@ -22,7 +22,7 @@ let answerGot=0;
     while(trial){
         randomNum1= Math.floor(Math.random()*10)+1;
         randomNum2= Math.floor(Math.random()*10)+1
-        answer=window.prompt(`Gues the Number:  ${randomNum1} times ${randomNum2}`)
+        answer=window.prompt(`Guess the Number:  ${randomNum1} times ${randomNum2}`)
         console.log(answer);
         result=playGame(randomNum1,randomNum2);
          if(parseInt(answer)===result && gameDuration<=10){
