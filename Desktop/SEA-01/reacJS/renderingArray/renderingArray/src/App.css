@@ -1,0 +1,38 @@
+
+/*  */
+.app{
+  margin:auto;
+  width: 80%;
+  margin-bottom: 5px;
+  padding: 5px;
+  
+}
+.learner{
+  width: 100%;
+  text-align: left;
+padding-bottom: 1.2em;
+
+}
+.learner h1{
+  margin: 0;
+}
+.learner p{
+  margin-bottom: 0;
+ 
+}
+.score{
+  width: 100%;
+  text-align:left;
+  display: flex;
+
+
+}
+.score h3{
+  margin: 0;
+  padding-right: 10px;
+}
+.block{
+  border: 1px solid green;
+  padding: 2em 5em;
+  background-color: #888;
+}
